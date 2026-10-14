@@ -1,9 +1,11 @@
-# Frozen EmbeddingGemma 2 speech encoder for Saudi and Gulf Arabic ASR
+# Frozen Gemma 4 / EmbeddingGemma 2 speech encoder for Saudi and Gulf Arabic ASR
 
-Code and public-set results for the paper *How Far Can a Frozen Embedding-Model Speech Encoder Go? Saudi and Gulf Arabic Speech
-Recognition with EmbeddingGemma 2* (Amr Abdelkhalik, 2026).
+Code and public-set results for the paper *How Far Can a Frozen Gemma 4 Speech Encoder Go? Saudi and Gulf Arabic Speech Recognition
+with the Encoder Shared by Gemma 4 and EmbeddingGemma 2* (Amr Abdelkhalik, 2026).
 
-The audio encoder of [google/embeddinggemma-2](https://huggingface.co/google/embeddinggemma-2) (305M parameters) is kept frozen. A
+The audio encoder of [google/embeddinggemma-2](https://huggingface.co/google/embeddinggemma-2) (305M parameters) is kept frozen. It is
+bit-identical to the audio encoder of [google/gemma-4-E2B](https://huggingface.co/google/gemma-4-E2B): 751 of 752 tensors match exactly, and the
+only difference is the projection into each model's text embedding space (`src/compare_towers.py` reproduces the check). A
 22.6M-parameter reader learns a softmax-weighted mix of encoder layers 6, 8, 10, 11, 12 and the output, then applies a depth-wise
 convolution, 6 transformer layers and a CTC output over 68 Arabic characters. A word 4-gram KenLM model is used in pyctcdecode beam search.
 
