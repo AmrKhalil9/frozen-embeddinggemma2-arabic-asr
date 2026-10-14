@@ -1,0 +1,349 @@
+{
+ "v2": {
+  "sada_test_clean16k|greedy": {
+   "wer": 71.1,
+   "cer": 31.88
+  },
+  "sada_test_clean16k|lm_calls_sada": {
+   "wer": 59.85,
+   "cer": 32.44
+  },
+  "sada_test_tel8k|greedy": {
+   "wer": 74.18,
+   "cer": 35.29
+  },
+  "sada_test_tel8k|lm_calls_sada": {
+   "wer": 63.56,
+   "cer": 36.12
+  }
+ },
+ "v3_tel": {
+  "sada_test_clean16k|greedy": {
+   "wer": 59.96,
+   "cer": 25.05
+  },
+  "sada_test_clean16k|lm_calls_sada": {
+   "wer": 48.54,
+   "cer": 24.16
+  },
+  "sada_test_tel8k|greedy": {
+   "wer": 63.32,
+   "cer": 27.38
+  },
+  "sada_test_tel8k|lm_calls_sada": {
+   "wer": 51.57,
+   "cer": 26.85
+  },
+  "casablanca_uae|clean16k|greedy": {
+   "wer": 67.82,
+   "cer": 22.35
+  },
+  "casablanca_uae|clean16k|lm_calls_sada": {
+   "wer": 60.5,
+   "cer": 23.64
+  },
+  "casablanca_uae|tel8k|greedy": {
+   "wer": 71.69,
+   "cer": 25.65
+  },
+  "casablanca_uae|tel8k|lm_calls_sada": {
+   "wer": 64.11,
+   "cer": 27.66
+  },
+  "nexdata_cs_sample|clean16k|greedy": {
+   "wer": 45.05,
+   "cer": 14.16
+  },
+  "nexdata_cs_sample|clean16k|lm_calls_sada": {
+   "wer": 40.11,
+   "cer": 14.91
+  },
+  "nexdata_cs_sample|tel8k|greedy": {
+   "wer": 46.88,
+   "cer": 15.18
+  },
+  "nexdata_cs_sample|tel8k|lm_calls_sada": {
+   "wer": 41.16,
+   "cer": 15.73
+  },
+  "sauditalk_longform|clean16k|greedy": {
+   "wer": 70.31,
+   "cer": 28.66
+  },
+  "sauditalk_longform|clean16k|lm_calls_sada": {
+   "wer": 65.46,
+   "cer": 29.66
+  },
+  "sauditalk_longform|tel8k|greedy": {
+   "wer": 72.58,
+   "cer": 30.52
+  },
+  "sauditalk_longform|tel8k|lm_calls_sada": {
+   "wer": 66.72,
+   "cer": 31.41
+  }
+ },
+ "v3_wide": {
+  "sada_test_clean16k|greedy": {
+   "wer": 60.05,
+   "cer": 25.29
+  },
+  "sada_test_clean16k|lm_calls_sada": {
+   "wer": 48.35,
+   "cer": 24.4
+  },
+  "sada_test_tel8k|greedy": {
+   "wer": 63.44,
+   "cer": 28.34
+  },
+  "sada_test_tel8k|lm_calls_sada": {
+   "wer": 52.24,
+   "cer": 28.14
+  },
+  "nexdata_cs_sample|clean16k|greedy": {
+   "wer": 46.69,
+   "cer": 14.09
+  },
+  "nexdata_cs_sample|clean16k|lm_calls_sada": {
+   "wer": 40.91,
+   "cer": 14.85
+  },
+  "nexdata_cs_sample|tel8k|greedy": {
+   "wer": 49.34,
+   "cer": 15.35
+  },
+  "nexdata_cs_sample|tel8k|lm_calls_sada": {
+   "wer": 41.93,
+   "cer": 15.82
+  },
+  "casablanca_uae|clean16k|greedy": {
+   "wer": 67.69,
+   "cer": 22.3
+  },
+  "casablanca_uae|clean16k|lm_calls_sada": {
+   "wer": 60.71,
+   "cer": 24.14
+  },
+  "casablanca_uae|tel8k|greedy": {
+   "wer": 72.21,
+   "cer": 26.41
+  },
+  "casablanca_uae|tel8k|lm_calls_sada": {
+   "wer": 64.73,
+   "cer": 28.84
+  },
+  "sauditalk_longform|clean16k|greedy": {
+   "wer": 69.92,
+   "cer": 28.61
+  },
+  "sauditalk_longform|clean16k|lm_calls_sada": {
+   "wer": 64.98,
+   "cer": 29.82
+  },
+  "sauditalk_longform|tel8k|greedy": {
+   "wer": 72.64,
+   "cer": 31.13
+  },
+  "sauditalk_longform|tel8k|lm_calls_sada": {
+   "wer": 66.99,
+   "cer": 32.66
+  }
+ },
+ "cohere_transcribe_arabic": {
+  "nexdata_cs_sample|clean16k": {
+   "wer": 27.77,
+   "cer": 11.91,
+   "n": 48
+  },
+  "nexdata_cs_sample|tel8k": {
+   "wer": 30.11,
+   "cer": 13.19,
+   "n": 48
+  },
+  "casablanca_uae|clean16k": {
+   "wer": 54.77,
+   "cer": 22.46,
+   "n": 813
+  },
+  "casablanca_uae|tel8k": {
+   "wer": 59.25,
+   "cer": 26.49,
+   "n": 813
+  },
+  "sauditalk_longform|clean16k": {
+   "wer": 58.49,
+   "cer": 30.07,
+   "n": 133
+  }
+ },
+ "speed": {
+  "cohere_cpu_bs8_sorted": {
+   "system": "cohere",
+   "device": "cpu",
+   "sorted": true,
+   "threads": 16,
+   "batch": 8,
+   "n": 200,
+   "audio_s": 776.1,
+   "wall_s": 84.11,
+   "rtfx": 9.2,
+   "peak_gpu_gib": null,
+   "precision": "float32",
+   "params_m": 2065.6,
+   "wer": 56.68
+  },
+  "cohere_cuda_bs16_sorted": {
+   "system": "cohere",
+   "device": "cuda",
+   "sorted": true,
+   "threads": 16,
+   "batch": 16,
+   "n": 813,
+   "audio_s": 3359.4,
+   "wall_s": 21.34,
+   "rtfx": 157.4,
+   "peak_gpu_gib": 4.76,
+   "precision": "float16",
+   "params_m": 2065.6,
+   "wer": 51.52
+  },
+  "cohere_cuda_bs32_sorted": {
+   "system": "cohere",
+   "device": "cuda",
+   "sorted": true,
+   "threads": 16,
+   "batch": 32,
+   "n": 813,
+   "audio_s": 3359.4,
+   "wall_s": 15.1,
+   "rtfx": 222.5,
+   "peak_gpu_gib": 5.15,
+   "precision": "float16",
+   "params_m": 2065.6,
+   "wer": 51.54
+  },
+  "eg2_greedy_cpu_bs8_sorted": {
+   "system": "eg2_greedy",
+   "device": "cpu",
+   "sorted": true,
+   "threads": 16,
+   "batch": 8,
+   "n": 200,
+   "audio_s": 776.1,
+   "wall_s": 24.98,
+   "rtfx": 31.1,
+   "peak_gpu_gib": null,
+   "precision": "float32",
+   "feature_extraction_s": 0.76,
+   "encoder_only_s": 22.58,
+   "encoder_only_rtfx": 34.4,
+   "params_m": 327.5,
+   "wer": 72.34
+  },
+  "eg2_greedy_cuda_bs16_sorted": {
+   "system": "eg2_greedy",
+   "device": "cuda",
+   "sorted": true,
+   "threads": 16,
+   "batch": 16,
+   "n": 813,
+   "audio_s": 3359.4,
+   "wall_s": 13.06,
+   "rtfx": 257.2,
+   "peak_gpu_gib": 1.49,
+   "precision": "bfloat16",
+   "feature_extraction_s": 2.71,
+   "encoder_only_s": 9.65,
+   "encoder_only_rtfx": 348.0,
+   "params_m": 327.5,
+   "wer": 67.74
+  },
+  "eg2_greedy_cuda_bs64_sorted": {
+   "system": "eg2_greedy",
+   "device": "cuda",
+   "sorted": true,
+   "threads": 16,
+   "batch": 64,
+   "n": 813,
+   "audio_s": 3359.4,
+   "wall_s": 14.74,
+   "rtfx": 227.9,
+   "peak_gpu_gib": 3.41,
+   "precision": "bfloat16",
+   "feature_extraction_s": 3.41,
+   "encoder_only_s": 10.51,
+   "encoder_only_rtfx": 319.5,
+   "params_m": 327.5,
+   "wer": 67.76
+  },
+  "eg2_lm_beam_only_cpu1_cpu_bs8_sorted": {
+   "system": "eg2_lm_beam_only_cpu1",
+   "device": "cpu",
+   "sorted": true,
+   "threads": 16,
+   "batch": 8,
+   "n": 200,
+   "audio_s": 776.1,
+   "wall_s": 9.27,
+   "rtfx": 83.7,
+   "wer": 65.84,
+   "note": "pyctcdecode beam 64 + 4-gram, one CPU process, on precomputed log-probs"
+  },
+  "eg2_lm_beam_only_cpu1_cuda_bs16_sorted": {
+   "system": "eg2_lm_beam_only_cpu1",
+   "device": "cuda",
+   "sorted": true,
+   "threads": 16,
+   "batch": 16,
+   "n": 813,
+   "audio_s": 3359.4,
+   "wall_s": 36.38,
+   "rtfx": 92.3,
+   "wer": 60.54,
+   "note": "pyctcdecode beam 64 + 4-gram, one CPU process, on precomputed log-probs"
+  },
+  "eg2_lm_beam_only_cpu1_cuda_bs64_sorted": {
+   "system": "eg2_lm_beam_only_cpu1",
+   "device": "cuda",
+   "sorted": true,
+   "threads": 16,
+   "batch": 64,
+   "n": 813,
+   "audio_s": 3359.4,
+   "wall_s": 35.91,
+   "rtfx": 93.5,
+   "wer": 60.49,
+   "note": "pyctcdecode beam 64 + 4-gram, one CPU process, on precomputed log-probs"
+  },
+  "nemotron_ft_beam8_cpu_bs8_sorted": {
+   "system": "nemotron_ft_beam8",
+   "device": "cpu",
+   "sorted": true,
+   "threads": 16,
+   "batch": 8,
+   "n": 200,
+   "audio_s": 776.1,
+   "wall_s": 40.09,
+   "rtfx": 19.4,
+   "peak_gpu_gib": null,
+   "precision": "float32",
+   "params_m": 638.0,
+   "wer": 63.03
+  },
+  "nemotron_ft_greedy_cpu_bs8_sorted": {
+   "system": "nemotron_ft_greedy",
+   "device": "cpu",
+   "sorted": true,
+   "threads": 16,
+   "batch": 8,
+   "n": 200,
+   "audio_s": 776.1,
+   "wall_s": 34.41,
+   "rtfx": 22.6,
+   "peak_gpu_gib": null,
+   "precision": "float32",
+   "params_m": 638.0,
+   "wer": 65.19
+  }
+ }
+}
